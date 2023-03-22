@@ -3,17 +3,19 @@ Event-driven simulation of traffic flow through a 4-way intersection that is man
 
 ## Table of contents
 * [General info](#general-info)
+* [Skills gained](#skills-gained)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
-	
+This project will involve implementation of an event-driven simulation of traffic flow through a 4-way intersection that is managed by a traffic light. The simulation includes cars arriving at the intersection traveling in all four directions, as well as the light changing state throughout the simulation. After the simulation is complete, there is an output with very minimal statistics about the traffic flow.
+
+## Skills gained
+
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* Visual Studio Code version 1.76.2
+* C++98
 	
 ## Setup
 To run this project, install it locally using npm:
