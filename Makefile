@@ -1,4 +1,4 @@
-all: proj5.exe
+all: traffic_simulation.exe
 
 CarClass.o: CarClass.cpp CarClass.h
 	g++ -std=c++98 -Wall -c CarClass.cpp -o CarClass.o
@@ -12,11 +12,11 @@ IntersectionSimulationClass.o: IntersectionSimulationClass.cpp IntersectionSimul
 random.o: random.cpp random.h
 	g++ -std=c++98 -Wall -c random.cpp -o random.o
 
-project5.o: project5.cpp LinkedNodeClass.h SortedListClass.h
-	g++ -std=c++98 -Wall -c project5.cpp -o project5.o
+traffic.o: traffic.cpp LinkedNodeClass.h SortedListClass.h
+	g++ -std=c++98 -Wall -c traffic.cpp -o traffic.o
 
-proj5.exe: project5.o CarClass.o IntersectionSimulationClass.o EventClass.o random.o
-	g++ -std=c++98 -Wall project5.o IntersectionSimulationClass.o EventClass.o random.o CarClass.o -o proj5.exe
+traffic_simulation.exe: traffic.o CarClass.o IntersectionSimulationClass.o EventClass.o random.o
+	g++ -std=c++98 -Wall traffic.o IntersectionSimulationClass.o EventClass.o random.o CarClass.o -o traffic_simulation.exe
 
 clean:
 	rm -rf *.o *.exe
