@@ -25,7 +25,8 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ cd ../traffic_simulation
+$ make
+$ g++ -std=c++98 -Wall traffic.o IntersectionSimulationClass.o EventClass.o random.o CarClass.o -o traffic_simulation.exe
+$ valgrind --leak-check=full ./traffic_simulation.exe
 ```
