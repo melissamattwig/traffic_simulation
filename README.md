@@ -11,10 +11,10 @@ Event-driven simulation of traffic flow through a 4-way intersection that is man
 This project will involve implementation of an event-driven simulation of traffic flow through a 4-way intersection that is managed by a traffic light. The simulation includes cars arriving at the intersection traveling in all four directions, as well as the light changing state throughout the simulation. After the simulation is complete, there is an output with very minimal statistics about the traffic flow.
 
 ## Skills gained
-Use of Friend Functions / Classes
-Use of C++ "string" Type, pointers, and overloaded operators
-Use of makefile and multiple source code files
-Implementation of first-in-first-out queue and last-in-first-out stack classes
+* Use of Friend Functions / Classes
+* Use of C++ "string" Type, pointers, and overloaded operators
+* Use of makefile and multiple source code files
+* Implementation of first-in-first-out queue and last-in-first-out stack classes
 
 ## Technologies
 Project is created with:
