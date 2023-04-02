@@ -1,4 +1,4 @@
-# Traffic Simulation for EECS402 at the University of Michigan
+# Traffic Simulation
 Event-driven simulation of traffic flow through a 4-way intersection that is managed by a traffic light
 
 ## Table of contents
