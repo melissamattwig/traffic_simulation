@@ -6,6 +6,7 @@ Event-driven simulation of traffic flow through a 4-way intersection that is man
 * [Skills gained](#skills-gained)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Citations](#citations)
 
 ## General info
 This project will involve implementation of an event-driven simulation of traffic flow through a 4-way intersection that is managed by a traffic light. The simulation includes cars arriving at the intersection traveling in all four directions, as well as the light changing state throughout the simulation. After the simulation is complete, there is an output with very minimal statistics about the traffic flow.
@@ -30,3 +31,6 @@ $ make
 $ g++ -std=c++98 -Wall traffic.o IntersectionSimulationClass.o EventClass.o random.o CarClass.o -o traffic_simulation.exe
 $ valgrind --leak-check=full ./traffic_simulation.exe
 ```
+
+## Citations
+Traffic simulation gif retrieved from: https://github.com/scmilburn/traffic_simulator/blob/master/traffic.gif
